@@ -1,2 +1,0 @@
-# FAP
-Initial project
