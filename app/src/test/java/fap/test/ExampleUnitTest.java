@@ -1,4 +1,4 @@
-package kas.test;
+package fap.test;
 
 import org.junit.Test;
 

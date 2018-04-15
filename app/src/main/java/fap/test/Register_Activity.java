@@ -1,9 +1,9 @@
-package kas.test;
+package fap.test;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-public class SecondActivity extends AppCompatActivity {
+public class Register_Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

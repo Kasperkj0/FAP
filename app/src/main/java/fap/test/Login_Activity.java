@@ -1,4 +1,4 @@
-package kas.test;
+package fap.test;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class Login_Activity extends AppCompatActivity {
 
     private EditText Name;
     private EditText Password;
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void validate(String userName, String userPassword){
         if((userName.equals("Admin")) && (userPassword.equals("1234"))){
-            Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+            Intent intent = new Intent(Login_Activity.this, Register_Activity.class);
             startActivity(intent);
         }else{
             counter--;
