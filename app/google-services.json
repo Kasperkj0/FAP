@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "730674657507",
+    "firebase_url": "https://faplogin-91a39.firebaseio.com",
+    "project_id": "faplogin-91a39",
+    "storage_bucket": "faplogin-91a39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730674657507:android:9efe327477e8d532",
+        "android_client_info": {
+          "package_name": "fap.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730674657507-c9368hsgfp3huao5fcdpigib4s39r7lo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBosEEVfk1Fjmx1s2AEB76fIHyrisPWQ-Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

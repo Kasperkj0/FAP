@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">test</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="login1">Login</string>
+    <string name="register">Register</string>
+    <string name="attempts_remaining">Attempts remaining:</string>
+    <string name="faplogo">FAPlogo</string>
 </resources>
