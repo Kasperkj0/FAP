@@ -28,7 +28,7 @@ public class Login_Activity extends AppCompatActivity {
         Login = findViewById(R.id.btnLogin);
         Register = findViewById(R.id.btnRegister);
 
-        Info.setText("Attempts remaining: 5");
+        Info.setText("");
 
         Register.setOnClickListener(new View.OnClickListener() {
             @Override
