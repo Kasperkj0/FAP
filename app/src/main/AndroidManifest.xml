@@ -16,6 +16,7 @@
             </intent-filter>
         </activity>
         <activity android:name="fap.test.Register_Activity" />
+        <activity android:name="fap.test.HomePage_Activity" />
     </application>
 
 </manifest>
