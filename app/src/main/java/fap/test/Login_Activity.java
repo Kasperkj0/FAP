@@ -15,7 +15,7 @@ public class Login_Activity extends AppCompatActivity {
     private TextView Info;
     private Button Login;
     private Button Register;
-    private int counter = 5;
+    private int counter = 420;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
