@@ -54,7 +54,7 @@ public class Register_Activity extends AppCompatActivity{
                                 finish();
                                 startActivity(new Intent(Register_Activity.this, Login_Activity.class));
                             }else{
-                                Toast.makeText(Register_Activity.this, "Email or username is taken", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(Register_Activity.this, "Email must be valid and Password must be at lest 6 characters", Toast.LENGTH_SHORT).show();
                             }
 
                         }

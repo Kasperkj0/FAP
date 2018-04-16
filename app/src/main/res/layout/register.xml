@@ -112,4 +112,15 @@
         app:srcCompat="@drawable/faplogo"
         android:contentDescription="@string/faplogo" />
 
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="ToggleButton"
+        android:textOff="Parent"
+        android:textOn="Kiddo"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="166dp" />
+
 </android.support.constraint.ConstraintLayout>
