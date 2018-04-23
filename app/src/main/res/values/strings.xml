@@ -8,4 +8,5 @@
     <string name="register">Register</string>
     <string name="attempts_remaining">Attempts remaining:</string>
     <string name="faplogo">FAPlogo</string>
+    <string name="action_settings" />
 </resources>

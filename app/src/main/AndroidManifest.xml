@@ -3,9 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="fap.test">
 
-    <!--<uses-permission-->
-        <!--android:name="android.permission.PACKAGE_USAGE_STATS"-->
-        <!--tools:ignore="ProtectedPermissions" />-->
+    <uses-permission
+        android:name="android.permission.PACKAGE_USAGE_STATS"
+        tools:ignore="ProtectedPermissions" />
 
 
     <application
@@ -14,7 +14,7 @@
         android:roundIcon="@drawable/ktlogo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="fap.test.Login_Activity">
+        <activity android:name="fap.test.HomePage_Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         <activity android:name="fap.test.Register_Activity" />
-        <activity android:name="fap.test.HomePage_Activity" />
+        <activity android:name="fap.test.Login_Activity" />
     </application>
 
 </manifest>
